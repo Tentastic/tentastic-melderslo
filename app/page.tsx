@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Countdown from "@/components/Countdown";
+import EnableNotificationsButton from "@/components/EnableNotificationsButton";
 import InstallAppButton from "@/components/InstallAppButton";
 import WeatherWidget from "@/components/WeatherWidget";
 import { site, about } from "@/lib/site";
@@ -40,7 +41,10 @@ export default function Home() {
           Tickets
         </a>
 
-        <InstallAppButton />
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          <InstallAppButton />
+          <EnableNotificationsButton />
+        </div>
       </section>
 
       {/* Countdown */}
