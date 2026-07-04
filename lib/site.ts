@@ -194,4 +194,5 @@ export const goldSponsors: Sponsor[] = [
   { name: "CLT Metal Service", logo: "/sponsors/gold-clt-metal-service.png" },
   { name: "La Fleur Coiffure", logo: "/sponsors/gold-la-fleur-coiffure.jpeg" },
   { name: "Sun-Power", logo: "/sponsors/gold-sun-power.svg" },
+  { name: "22Design", logo: "/sponsors/gold-22design.png" },
 ];
