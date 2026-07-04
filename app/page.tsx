@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Countdown from "@/components/Countdown";
+import InstallAppButton from "@/components/InstallAppButton";
 import WeatherWidget from "@/components/WeatherWidget";
 import { site, about } from "@/lib/site";
 
@@ -38,6 +39,8 @@ export default function Home() {
         >
           Tickets
         </a>
+
+        <InstallAppButton />
       </section>
 
       {/* Countdown */}
