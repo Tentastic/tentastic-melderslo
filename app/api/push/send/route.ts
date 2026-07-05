@@ -50,3 +50,15 @@ export async function POST(request: NextRequest) {
 
   return NextResponse.json({ sent, removed, total: blobs.length });
 }
+
+export async function GET(request: NextRequest) {
+  const secret = request.headers.get("x-push-secret");
+  if (secret !== process.env.PUSH_SEND_SECRET) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const store = getStore("push-subscriptions");
+  const { blobs } = await store.list();
+
+  return NextResponse.json({ subscribers: blobs.length });
+}
