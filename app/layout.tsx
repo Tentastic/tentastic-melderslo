@@ -21,9 +21,9 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-  title: "Tentastic Melderslo 2026",
+  title: "Tentastic Melderslo 2027",
   description:
-    "Vrijdag 10 juli 2026 — een avond vol muziek, gezelligheid en feest in de tent bij Melderslo. Met o.a. La$$a, Young Dylan, Hitmaestro en Two Face.",
+    "Na een geslaagde editie in 2026 komt Tentastic Melderslo terug op vrijdag 18 juni 2027 — een avond vol muziek, gezelligheid en feest in de tent bij Melderslo.",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",

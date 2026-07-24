@@ -1,15 +1,17 @@
 export const site = {
   name: "Tentastic Melderslo",
-  edition: "2026",
-  date: "Vrijdag 10 juli 2026",
-  eventDate: "2026-07-10",
-  eventDateTime: "2026-07-10T20:00:00",
+  edition: "2027",
+  date: "Vrijdag 18 juni 2027",
+  eventDate: "2027-06-18",
+  eventDateTime: "2027-06-18T20:00:00",
+  // Tijd, locatie en leeftijdsgrens zijn nog niet bevestigd voor 2027 —
+  // dit zijn de waarden van de vorige editie, gebruikt als voorlopige aanname.
   time: "20:00 - 01:00",
   location: "Wei tegenover Sint Odastraat 58, Melderslo",
   mapsUrl: "https://maps.app.goo.gl/HA5qt37ee7QxFih99",
   ageLimit: "16+",
-  ticketUrl:
-    "https://ticketshop.veiligreserveren.nl/nl/event/tentastic-melderslo-2026",
+  // Nog geen ticketshop voor 2027 — leeg totdat de verkoop opent.
+  ticketUrl: "",
   contactEmail: "tentastic@kpj-melderslo.nl",
   instagramUrl: "https://www.instagram.com/tentastic_melderslo/",
   facebookUrl:
@@ -114,7 +116,7 @@ export const faq: FaqItem[] = [
   {
     question: "Kan ik nog tickets kopen?",
     answer:
-      "Tickets zijn verkrijgbaar via de link in onze bio op Instagram of rechtstreeks via onze ticketshop. Regular Bird is uitverkocht, Late Bird tickets zijn (zolang de voorraad strekt) nog beschikbaar.",
+      "De ticketverkoop voor editie 2027 is nog niet gestart. Hou onze Nieuws-pagina en Instagram in de gaten — daar maken we bekend wanneer en waar je tickets kunt kopen.",
   },
   {
     question: "Kan ik pinnen, of moet ik contant geld meenemen?",

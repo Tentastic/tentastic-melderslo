@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Tentastic Melderslo 2026",
+    name: "Tentastic Melderslo",
     short_name: "Tentastic",
     description:
-      "Vrijdag 10 juli 2026 — een avond vol muziek, gezelligheid en feest in de tent bij Melderslo.",
+      "Jaarlijks feest in de tent bij Melderslo. Blijf op de hoogte van de eerstvolgende editie.",
     start_url: "/",
     display: "standalone",
     background_color: "#000000",

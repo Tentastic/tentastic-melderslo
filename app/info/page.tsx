@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { about, faq, site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Info & FAQ — Tentastic Melderslo 2026",
+  title: "Info & FAQ — Tentastic Melderslo 2027",
 };
 
 export default function InfoPage() {

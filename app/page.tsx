@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import Countdown from "@/components/Countdown";
 import EnableNotificationsButton from "@/components/EnableNotificationsButton";
@@ -10,36 +9,33 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1 bg-black text-zinc-100">
       {/* Hero */}
-      <section className="flex flex-col items-center justify-center gap-6 pb-10 text-center sm:pb-16">
-        <Image
-          src="/banner.png"
-          alt="Tentastic Melderslo — La$$a, Young Dylan, Hitmaestro, Two Face — vrijdag 10 juli, 16+"
-          width={2000}
-          height={930}
-          priority
-          className="h-auto w-full"
-        />
+      <section className="flex flex-col items-center justify-center gap-6 px-6 py-24 text-center">
+        <h1 className="font-display text-gradient-tentastic text-6xl leading-none tracking-wide sm:text-8xl">
+          TENTASTIC
+        </h1>
+        <p className="font-display text-2xl tracking-[0.3em] text-tentastic-orange sm:text-3xl">
+          MELDERSLO
+        </p>
 
-        <div className="mt-2 flex flex-col items-center gap-2 px-6 text-lg text-zinc-300">
-          <p>{site.time}</p>
+        <p className="mt-4 max-w-md text-lg text-zinc-300">
+          Bedankt voor een onvergetelijke editie 2026! De volgende editie is
+          op {site.date.toLowerCase()}.
+        </p>
+
+        {site.ticketUrl ? (
           <a
-            href={site.mapsUrl}
+            href={site.ticketUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline decoration-tentastic-orange underline-offset-4 hover:text-white"
+            className="mt-4 rounded-full bg-tentastic-orange px-10 py-4 font-display text-xl tracking-wide text-black transition-colors hover:bg-tentastic-red hover:text-white"
           >
-            {site.location}
+            Tickets
           </a>
-        </div>
-
-        <a
-          href={site.ticketUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-4 rounded-full bg-tentastic-orange px-10 py-4 font-display text-xl tracking-wide text-black transition-colors hover:bg-tentastic-red hover:text-white"
-        >
-          Tickets
-        </a>
+        ) : (
+          <p className="mt-4 rounded-full border border-white/20 px-10 py-4 text-sm text-zinc-400">
+            Tickets volgen later — hou Nieuws en Instagram in de gaten
+          </p>
+        )}
 
         <div className="flex flex-wrap items-center justify-center gap-3">
           <InstallAppButton />

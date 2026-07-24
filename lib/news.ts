@@ -8,6 +8,12 @@ export type NewsPost = {
 // Nieuwe update? Voeg een item toe bovenaan deze lijst (nieuwste eerst).
 export const news: NewsPost[] = [
   {
+    slug: "bedankt-2026",
+    title: "Bedankt voor een fantastische editie 2026!",
+    date: "13 juli 2026",
+    body: "Wat een avond was het! Bedankt aan iedereen die erbij was, aan onze artiesten, sponsoren en vrijwilligers — samen hebben we er weer een onvergetelijke editie van gemaakt. We kijken nu al uit naar de volgende keer: Tentastic Melderslo is terug op vrijdag 18 juni 2027. Hou deze pagina in de gaten voor alle updates!",
+  },
+  {
     slug: "late-bird-beschikbaar",
     title: "Regular Bird uitverkocht, Late Bird nu beschikbaar",
     date: "3 juli 2026",

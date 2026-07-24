@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { news } from "@/lib/news";
 
 export const metadata: Metadata = {
-  title: "Nieuws — Tentastic Melderslo 2026",
+  title: "Nieuws — Tentastic Melderslo 2027",
 };
 
 export default function NieuwsPage() {

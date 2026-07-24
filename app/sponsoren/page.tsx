@@ -9,7 +9,7 @@ import {
 } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Sponsoren — Tentastic Melderslo 2026",
+  title: "Sponsoren — Tentastic Melderslo 2027",
 };
 
 export default function SponsorenPage() {
@@ -20,6 +20,10 @@ export default function SponsorenPage() {
         <h1 className="font-display mb-3 text-center text-4xl tracking-wide text-tentastic-orange">
           ONZE SPONSOREN
         </h1>
+        <p className="mx-auto mb-10 max-w-xl text-center text-zinc-400">
+          Dankzij deze sponsoren was editie 2026 een succes. De sponsoren
+          voor 2027 worden hier binnenkort bekendgemaakt.
+        </p>
         <p className="mb-12 text-center text-sm tracking-[0.2em] text-zinc-500">
           PLATINUM
         </p>
